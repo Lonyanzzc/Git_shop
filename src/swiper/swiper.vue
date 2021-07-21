@@ -28,7 +28,7 @@ export default {
         autoplay: {
           delay: 1000,
           stopOnLastSlide: false,
-          disableOnInteraction: true,
+          disableOnInteraction: false,
         },
 			}
 		}
@@ -71,7 +71,7 @@ export default {
         this.$bus.$emit('swiperImgload');
         this.bol = !this.bol
       }
-    }
+    },
   },
 	computed: {
       swiper() {
