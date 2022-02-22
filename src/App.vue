@@ -2,7 +2,7 @@
   <div id="app">
     <bottom></bottom>
     <inter-face></inter-face>
-    <!-- <div >ssssssssssssssss</div> -->
+    <!-- <div >sssssssssssssss</div> -->
   </div>
 </template>
 
