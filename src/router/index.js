@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
-import home from '../views/home/home.vue'
+// import home from '../views/home/home.vue'
 import shopCar from '../views/shopcar/shopCar.vue'
 import profile from '../views/profile/profile.vue'
 import categroy from '../views/categroy/Category.vue'
@@ -16,7 +16,10 @@ const routes = [
   },
   {
     path:'/home',
-    component: home,
+    component: (resolve) => {
+      console.log("router");
+      return require(["../views/home/home.vue"],resolve)
+    },
   },
   {
     path:'/shopCar',

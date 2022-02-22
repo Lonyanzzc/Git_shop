@@ -132,7 +132,7 @@ export default {
 			const item = new class pick{
 				constructor(){
 					this.show = data;
-				  this.show.img = data.image
+				  	this.show.img = data.image
 					this.title = data.title;
 					this.price = data.price;
 					this.cfav = data.cfav;

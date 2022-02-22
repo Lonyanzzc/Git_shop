@@ -10,10 +10,10 @@ export default{
 		})
 
 		if(item){
-				context.commit("ADD_COUNT", item)
+				context.commit(ADD_COUNT, item)
 				resolve('数量+1！')
 		}else{
-				context.commit('ADD_SHOPCAR_LIST', payload)
+				context.commit(ADD_SHOPCAR_LIST, payload)
 				resolve("已添加到购物车中！")
 		}
 		})

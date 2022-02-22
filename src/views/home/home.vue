@@ -65,6 +65,7 @@ export default {
         this.$bus.$on('finishpullup', () => {  //从goods发射出来的事件
             this.$refs.scroll.finishPullUp();
         })
+        console.log(this.$refs.illustrate1);
     },
     activated(){
         this.$refs.scroll.refresh() 
