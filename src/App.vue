@@ -16,6 +16,7 @@ export default {
     bottom,
     interFace,
   }
+  //改动
 }
 </script>
 
