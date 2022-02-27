@@ -2,7 +2,7 @@
   <div id="app">
     <bottom></bottom>
     <inter-face></inter-face>
-    <!-- <div >ssssssssssssssss</div> -->
+    <!-- <div >sssssssssssssss</div> -->
   </div>
 </template>
 
@@ -16,7 +16,6 @@ export default {
     bottom,
     interFace,
   }
-  //develop分支的一次测试修改
 }
 </script>
 
