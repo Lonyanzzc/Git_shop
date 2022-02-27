@@ -16,7 +16,6 @@ export default {
     bottom,
     interFace,
   }
-  //develop分支的一次测试修改
 }
 </script>
 
