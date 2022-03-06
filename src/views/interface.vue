@@ -11,7 +11,7 @@
 
 <script>
 export default {
-    name:"interface"
+    name:"interface" 
 }
 </script>
 
