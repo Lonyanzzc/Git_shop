@@ -19,6 +19,6 @@ export default {
 /* 这只是路由的样式，若是在app中添加内容，则top:44px对app中添加的内容无效，会产生内容重叠的问题 */
 /* #interface{
     position: relative;
-    top:44px;
+    top:44px; 
 } */
 </style>
