@@ -4,7 +4,7 @@
             <router-view></router-view>
         </keep-alive>
    <!--     <p>{{$store.state.count}}</p>
-        <h1 @click="$store.commit('add',[10,20])">555</h1>
+        <h1 @click="$store.commit('add',[10,20])">555</h1>s
     -->
     </div>
 </template>
