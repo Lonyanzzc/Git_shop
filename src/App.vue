@@ -20,7 +20,7 @@ export default {
 }
 </script>
 
-<style>
+<style> 
 body{
   /*否者body和html宽度不一致（body整体默认margin:8px,就很奇怪） */
   margin: 0px;
